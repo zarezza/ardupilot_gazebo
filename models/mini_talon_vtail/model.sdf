@@ -750,6 +750,7 @@
       </axis>
     </joint>
 
+
     <!-- System plugins. -->
     <plugin filename="gz-sim-joint-state-publisher-system"
       name="gz::sim::systems::JointStatePublisher">
@@ -1047,7 +1048,7 @@
         <type>COMMAND</type>
         <cmd_topic>/right_ruddervator_joint/cmd_pos</cmd_topic>
       </control>
-
+      
       <!-- roll range is -30 to +30 deg -->
       <control channel="8">
         <jointName>gimbal::roll_joint</jointName>
@@ -1107,7 +1108,6 @@
       <topic>/gimbal/cmd_yaw</topic>
       <p_gain>2</p_gain>
     </plugin>
-
   </model>
 </sdf>
 
