@@ -56,6 +56,28 @@
           </pbr>
         </material>
       </visual>
+      <visual name="qr_target">
+        <pose degrees="true">-100 0 0.01 0 0 0</pose>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>2.8 2.8</size>
+          </plane>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://runway/materials/textures/qr-target.png</albedo_map>
+              <roughness>0</roughness>
+              <metalness>0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
     </link>
   </model>
 </sdf>
