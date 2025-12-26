@@ -743,7 +743,7 @@
       name="gz::sim::systems::JointPositionController">
       <joint_name>left_aileron_joint</joint_name>
       <initial_position>0.0</initial_position>
-      <topic>/left_aileron_joint/cmd_pos</topic>
+      <topic>/vtail1/left_aileron_joint/cmd_pos</topic>
       <p_gain>10</p_gain>
       <i_gain>0.0</i_gain>
       <d_gain>0.0</d_gain>
@@ -759,7 +759,7 @@
       name="gz::sim::systems::JointPositionController">
       <joint_name>right_aileron_joint</joint_name>
       <initial_position>0.0</initial_position>
-      <topic>/right_aileron_joint/cmd_pos</topic>
+      <topic>/vtail1/right_aileron_joint/cmd_pos</topic>
       <p_gain>10</p_gain>
       <i_gain>0.0</i_gain>
       <d_gain>0.0</d_gain>
@@ -775,7 +775,7 @@
       name="gz::sim::systems::JointPositionController">
       <joint_name>left_ruddervator_joint</joint_name>
       <initial_position>0.0</initial_position>
-      <topic>/left_ruddervator_joint/cmd_pos</topic>
+      <topic>/vtail1/left_ruddervator_joint/cmd_pos</topic>
       <p_gain>10</p_gain>
       <i_gain>0.0</i_gain>
       <d_gain>0.0</d_gain>
@@ -791,7 +791,7 @@
       name="gz::sim::systems::JointPositionController">
       <joint_name>right_ruddervator_joint</joint_name>
       <initial_position>0.0</initial_position>
-      <topic>/right_ruddervator_joint/cmd_pos</topic>
+      <topic>/vtail1/right_ruddervator_joint/cmd_pos</topic>
       <p_gain>10</p_gain>
       <i_gain>0.0</i_gain>
       <d_gain>0.0</d_gain>
@@ -953,7 +953,7 @@
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
         <type>COMMAND</type>
-        <cmd_topic>/left_aileron_joint/cmd_pos</cmd_topic>
+        <cmd_topic>/vtail1/left_aileron_joint/cmd_pos</cmd_topic>
       </control>
 
       <control channel="0">
@@ -963,7 +963,7 @@
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
         <type>COMMAND</type>
-        <cmd_topic>/right_aileron_joint/cmd_pos</cmd_topic>
+        <cmd_topic>/vtail1/right_aileron_joint/cmd_pos</cmd_topic>
       </control>
 
       <!--
@@ -982,7 +982,7 @@
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
         <type>COMMAND</type>
-        <cmd_topic>/left_ruddervator_joint/cmd_pos</cmd_topic>
+        <cmd_topic>/vtail1/left_ruddervator_joint/cmd_pos</cmd_topic>
       </control>
 
       <!--
@@ -1027,7 +1027,7 @@
         <servo_min>1000</servo_min>
         <servo_max>2000</servo_max>
         <type>COMMAND</type>
-        <cmd_topic>/right_ruddervator_joint/cmd_pos</cmd_topic>
+        <cmd_topic>/vtail1/right_ruddervator_joint/cmd_pos</cmd_topic>
       </control>
 
     </plugin>
